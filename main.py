@@ -3,9 +3,9 @@ import requests, os
 
 app = Flask(__name__)
 
-CLIENT_ID = os.getenv("CLIENT_ID")
-CLIENT_SECRET = os.getenv("CLIENT_SECRET")
-REDIRECT_URI = os.getenv("REDIRECT_URI")
+CLIENT_ID = os.getenv("tiny-api-6f4f4107be9daeca329efb49c091b2d1e9df6651-1744725670")
+CLIENT_SECRET = os.getenv("NJfT25f6YVkuRCIwEAzFKpfq41iCpr8h")
+REDIRECT_URI = os.getenv("https://tiny-google-sync.onrender.com")
 TOKEN_URL = "https://accounts.tiny.com.br/realms/tiny/protocol/openid-connect/token"
 AUTH_URL = "https://accounts.tiny.com.br/realms/tiny/protocol/openid-connect/auth"
 
